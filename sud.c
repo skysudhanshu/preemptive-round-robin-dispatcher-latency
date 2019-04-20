@@ -151,7 +151,7 @@ int main()
 Ready =(struct Queue*) malloc(sizeof(struct Queue));
 	printf("Please enter No of processes to schedule ::");
 	scanf("%d",&n);
-	printf("\n Please Enter Time qunatum ::");
+	printf("\n  Please Enter Time qunatum ::");
 	scanf("%d",&TQ);
 	pa=(struct Process_block *)malloc(sizeof(struct Process_block)*n);
 	for(int i=0;i<n;i++)
