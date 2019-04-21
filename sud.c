@@ -3,7 +3,6 @@
 #include<unistd.h>
 #include<sys/wait.h>
 #include<stdlib.h>
-
 #define NEW 0
 #define READY 1
 #define WAITING 2
